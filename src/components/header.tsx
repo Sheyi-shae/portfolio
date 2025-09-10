@@ -52,10 +52,10 @@ export default function Header() {
 
   //download resume locally from public folder
  const downloadResume = () => {
-   const resumeUrl = '/Adeniyi_Seyi_Resume.docx'
+   const resumeUrl = '/Adeniyi_Seyi_FullStack_Resume.docx'
     try { const link = document.createElement('a')
        link.href = resumeUrl 
-       link.download = 'Adeniyi_Seyi_Resume.docx'
+       link.download = 'Adeniyi_Seyi_FullStack_Resume.docx'
         document.body.appendChild(link)
          link.click()
          document.body.removeChild(link) 
