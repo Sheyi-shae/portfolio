@@ -35,7 +35,7 @@ export default function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-600/90 to-teal-600/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
                   <div className="flex space-x-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                    <Link href={'https://lms-frontend-six-tau.vercel.app/'}  target="_blank" rel="noopener noreferrer"><Button size="sm" variant="secondary" className="animate-bounce-subtle">
+                    <Link href={'https://lms-frontend-zeta-fawn.vercel.app/'}  target="_blank" rel="noopener noreferrer"><Button size="sm" variant="secondary" className="animate-bounce-subtle">
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
                     </Button></Link>
@@ -49,7 +49,7 @@ export default function Projects() {
               <CardHeader>
                 <CardTitle className="text-indigo-700 flex items-center ">
                  <Zap className="w-5 h-5 mr-2 text-teal-600" />
-             <Link href={'https://lms-frontend-six-tau.vercel.app/'}  target="_blank" rel="noopener noreferrer">    Learning Management System</Link> 
+             <Link href={'https://lms-frontend-zeta-fawn.vercel.app/'}  target="_blank" rel="noopener noreferrer">    Learning Management System</Link> 
                 </CardTitle>
                 <CardDescription>
                   Full-stack learning management system with Next, Node.js, and Cloudinary integration
