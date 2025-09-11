@@ -96,7 +96,7 @@ export default function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-teal-600/90 to-indigo-600/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
                   <div className="flex space-x-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                    <Link href={'obshpere-frontend-dse6.vercel.app'}  target="_blank" rel="noopener noreferrer"><Button size="sm" variant="secondary" className="animate-bounce-subtle">
+                    <Link href={'https://jobshpere-frontend-dse6.vercel.app/'}  target="_blank" rel="noopener noreferrer"><Button size="sm" variant="secondary" className="animate-bounce-subtle">
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
                     </Button></Link>
@@ -110,7 +110,8 @@ export default function Projects() {
               <CardHeader>
                 <CardTitle className="text-teal-700 flex items-center">
                   <Target className="w-5 h-5 mr-2 text-indigo-600" />
-                 Job SaaS Platform
+                  <Link href={'https://jobshpere-frontend-dse6.vercel.app/'}>    Job SaaS Platform</Link>
+             
                 </CardTitle>
                 <CardDescription>
                   JobSphere is a multi-tenant job board SaaS platform designed to connect employers with 
